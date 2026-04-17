@@ -82,17 +82,6 @@ Since the dataset had no churn label:
 
 ---
 
-## 📊 Model Performance
-
-*(Update these after running your model)*
-
-* Accuracy: XX%
-* ROC-AUC: XX%
-* Recall: XX%
-
-👉 Focused on **Recall**, as missing churned customers is costly
-
----
 
 ## 💡 Business Insights
 
@@ -125,20 +114,6 @@ Since the dataset had no churn label:
 
 ---
 
-## 📂 Project Structure
-
-```
-churn-prediction/
-│── app.py
-│── model/
-│── data/
-│── notebooks/
-│── src/
-│── requirements.txt
-│── README.md
-```
-
----
 
 ## ▶️ How to Run Locally
 
@@ -149,11 +124,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
-
-*(Add your Streamlit app & dashboard screenshots here)*
-
----
 
 ## 👨‍💻 Author
 
