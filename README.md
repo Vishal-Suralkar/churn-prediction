@@ -110,7 +110,7 @@ Since the dataset had no churn label:
 
 ## 🌐 Live Demo
 
-👉 https://your-app.streamlit.app
+👉 https://churn-prediction-h3txxjg8bzbyyu6jpudzgi.streamlit.app/
 
 ---
 
