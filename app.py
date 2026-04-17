@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load model & scaler
-model = pickle.load(open("model/model.pkl", "rb"))
-scaler = pickle.load(open("model/scaler.pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
+scaler = pickle.load(open("scaler.pkl", "rb"))
 
 st.title("🛒 Customer Churn Prediction")
 
