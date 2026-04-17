@@ -1,3 +1,13 @@
+from streamlit_lottie import st_lottie
+import json
+
+def load_lottie(file):
+    with open(file, "r") as f:
+        return json.load(f)
+
+lottie_animation = load_lottie("shopping Ecommerce.json")
+st_lottie(lottie_animation, height=300)
+
 import streamlit as st
 import numpy as np
 import pickle
