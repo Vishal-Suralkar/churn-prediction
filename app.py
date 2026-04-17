@@ -15,13 +15,6 @@ import pandas as pd
 
 
 # -------------------------------
-st.markdown("""
-<h1 style='text-align: center; color: #00C9A7;'>🛒 Churn Prediction Dashboard</h1>
-<p style='text-align: center;'>Predict and prevent customer churn</p>
-""", unsafe_allow_html=True)
-
-
-# -------------------------------
 # Load Model
 # -------------------------------
 model = pickle.load(open("model.pkl", "rb"))
